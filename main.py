@@ -13,5 +13,32 @@ import random
 
 word_bank = ["water", "cooler", "summer"]
 word = random.choice(word_bank)
-print(len(word))
+print("_" * len(word))
 
+# this holds the display of hidden word
+
+# this holds onto all the letters that was guessed
+guess_made = ""
+chances = 5
+# while(chances > 0):
+#     main = ""
+#     guess = input("enter a guess: ")
+#     guess_made += guess
+#     for letter in word:
+#         if letter in guess_made:
+#             main = main + letter
+#         else:
+#             main += "_"
+#     print(main)
+#
+#     if guess not in word:
+#         chances -= 1
+
+print("Hello")
+print("World")
+
+
+
+# summer
+# sum
+# __m
